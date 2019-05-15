@@ -189,7 +189,7 @@ form2.setResizable(false);
 /*Установить посередине экрана в form2*/
 form2.setLocationRelativeTo(null); 
 /*По закрытию формы - не закрывать приложение в form2*/
-form2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+form2.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); 
 /*К панели добавляем менеджер BorderLayout в form2 */
 form2.setLayout (new BorderLayout()); 
 /*Окно создается видимым*/
@@ -549,7 +549,7 @@ form3.setSize(475, 290);
 /*установить посередине экрана*/
 form3.setLocationRelativeTo(null); 
 /*по закрытию формы - не закрывать приложение*/
-form3.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); 
+form3.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE); 
 /* Оператор new создает экземпляр указанного класса
 Метод setLayout - Вызов менеджера компоновки, который задает определенный порядок панелей в контейнере.
 Менеджер размещения BorderLayout - тип разбивки контейнера, при котором всё пространство контейнера разбивается
